@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080">
+  <defs>
+    <linearGradient id="streak" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#5AA1FF"/><stop offset="1" stop-color="#19D3E0"/>
+    </linearGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="3" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <g fill="none" stroke="url(#streak)" stroke-width="5" stroke-linecap="round" filter="url(#glow)" opacity="0.95">
+    <path d="M-100,820 C400,680 1000,920 1500,720 C1950,600 2250,680 2600,560" />
+    <path d="M-120,760 C450,640 1050,860 1600,680 C2050,560 2350,640 2620,520" stroke-width="4"/>
+    <path d="M-140,700 C500,600 1200,800 1750,620 C2200,520 2450,600 2650,500" stroke-width="3.5"/>
+  </g>
+</svg>
